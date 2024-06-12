@@ -17,7 +17,7 @@
 
     <div class="program-container">
         <div class="program-card atas">
-            <h6>Progress Belajar</h6>
+            <h6>Kemajuan Belajar</h6>
             <div class="progress-container">
                 <div class="skills program">60%</div>
             </div>

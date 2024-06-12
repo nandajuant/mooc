@@ -36,7 +36,7 @@
         <div class="card">
             
             <div class="container">
-                <h4 class="subjudul">Tambah Test</h4>
+                <h4 class="subjudul">Tambah Latihan</h4>
                 <hr>
                 <br>
             

@@ -10,7 +10,7 @@
         <h6>Listening</h6>
       </router-link>
         <div class="progress-container">
-          <div class="skills listening">10%</div>
+          <div class="skills listening">20%</div>
         </div>
     </div>
     <br>
@@ -151,7 +151,7 @@
   } 
 
   .reading {
-  width: 10%; 
+  width: 20%; 
   background-color: white;
   border-radius: 10px;
   } 
