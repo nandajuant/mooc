@@ -72,9 +72,12 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* size-adjust: 50%; */
   /* margin: 20px; */
 }
 iframe {
+  height: 400px;
+  width: 800px;
   border: none;
 }
 

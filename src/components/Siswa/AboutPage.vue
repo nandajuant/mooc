@@ -12,7 +12,7 @@
 </div>
 <div class="card">
 <form action="">
-  <div class="container">
+  <div class="container-fluid">
     
 
     <Label><b>Contact Us</b></Label>
@@ -84,7 +84,7 @@ export default{
 }
 
 /* Add padding to containers */
-.container {
+.container-fluid {
   padding: 16px;
 }
 

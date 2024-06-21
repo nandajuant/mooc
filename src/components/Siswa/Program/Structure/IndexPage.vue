@@ -2,7 +2,7 @@
     <div>
         <div class="card">
   <!-- <img src="" alt="Avatar" style="width:100%"> -->
-  <div class="container">
+  <div class="container-fluid">
     <h4 >Structure</h4>
     
     <div class="deskripsi">
@@ -235,7 +235,7 @@ td{
 }
 
 /* Add some padding inside the card container */
-.container {
+.container-fluid {
   padding: 2px 16px;
 }
 

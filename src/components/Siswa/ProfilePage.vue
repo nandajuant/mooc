@@ -1,6 +1,6 @@
 <template>
 <form action="">
-  <div class="container">
+  <div class="container-fluid">
 
     <label for="email"><b>Nama</b></label>
     <input type="text" placeholder="Masukkan Nama" value="Nanda Juan Triatma" name="email" id="email" required>
@@ -56,7 +56,7 @@ export default{
 * {box-sizing: border-box}
 
 /* Add padding to containers */
-.container {
+.container-fluid{
   padding: 16px;
 }
 

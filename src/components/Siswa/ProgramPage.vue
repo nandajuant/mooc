@@ -2,33 +2,34 @@
  <div>
   <div class="card">
   <!-- <img src="" alt="Avatar" style="width:100%"> -->
-  <div class="container">
+  <div class="container-fluid">
     <h4 class="subjudul">Daftar Program</h4>
     
     <div class="program-card">
-      <router-link :to="{name: 'program.listening'}" class="route">
+      <!-- <router-link :to="{name: 'program.listening'}" class="route"> -->
         <h6>Listening</h6>
-      </router-link>
+      <!-- </router-link> -->
         <div class="progress-container">
           <div class="skills listening">20%</div>
         </div>
     </div>
     <br>
-   
+    <router-link :to="{name: 'program.structure'}" class="route">
     <div class="program-card">
-      <router-link :to="{name: 'program.structure'}" class="route">
+      
         <h6>Structure</h6>
-      </router-link>
+      
         <div class="progress-container">
           <div class="skills structure">60%</div>
         </div>
     </div>
+  </router-link>
     
     <br>
     <div class="program-card">
-      <router-link :to="{name: 'program.reading'}" class="route">
+      <!-- <router-link :to="{name: 'program.reading'}" class="route"> -->
         <h6>Reading</h6>
-      </router-link>
+      <!-- </router-link> -->
         <div class="progress-container">
           <div class="skills reading">0%</div>
         </div>
@@ -81,7 +82,8 @@
 }
 
 /* Add some padding inside the card container */
-.container {
+.container-fluid {
+  display: flexbox;
   padding: 2px 16px;
 }
 

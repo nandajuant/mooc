@@ -39,7 +39,7 @@ export default {
       // This is a simplified example, in a real application you should handle authentication securely.
       if (this.username === 'admin') {
         this.$router.push('/admin/program');
-      } else if (this.username === 'nanda') {
+      } else if (this.username === 'nanda' || this.username === 'Nanda') {
         this.$router.push('/program');
       } else {
         alert('Invalid username or password');
@@ -49,21 +49,21 @@ export default {
 };
 </script>
 <style>
-* {box-sizing: border-box}
+/* * {box-sizing: border-box} */
 
 /* Add padding to containers */
 .container {
-    transition: 0.3s;
-  padding: 10px;
+    /* transition: 0.3s; */
   justify-content: center;
   align-items: center;
+  display: flexbox;
   width: 40%;
   /* margin: 0 50px; */
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: #17A2B8;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+  /* transition: 0.3s; */
   border-radius: 10px;
   padding: 20px;
 }
