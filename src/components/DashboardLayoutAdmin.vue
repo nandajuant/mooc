@@ -52,8 +52,8 @@
   
   .navbar a.split {
     float: right;
-    background-color: yellow;
-    color: #17A2B8;
+    background-color: #17A2B8;
+    color: white;
     border-radius: 10%;
   }
   </style>

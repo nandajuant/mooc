@@ -33,7 +33,8 @@
     /* color: black; */
   }
   
-  .navbar-left, .navbar-right {
+  .navbar-right {
+    border: 2px solid #17A2B8;
     display: flex;
     align-items: center;
   }
@@ -50,7 +51,6 @@
   }
   .navbar a.daftar {
     float: right;
-    background-color: yellow;
     color: #17A2B8;
     /* border-radius: 10%; */
   }
