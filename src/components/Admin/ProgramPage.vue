@@ -2,7 +2,7 @@
  <div>
   <div class="card">
   <!-- <img src="" alt="Avatar" style="width:100%"> -->
-  <div class="container">
+  <div class="container-fluid">
     <h4 class="subjudul">Program</h4>
 
     <router-link :to="{name: 'admin.tambah'}" class="btn btn-md createbtn">
@@ -174,7 +174,7 @@ margin-top: 0px;
 }
 
 /* Add some padding inside the card container */
-.container {
+.container-fluid {
   padding: 2px 16px;
 }
 
